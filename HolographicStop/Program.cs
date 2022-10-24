@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Diagnostics;
 
-namespace StopHolographic
+namespace HolographicStop
 {
     class Program
     {
@@ -22,6 +20,9 @@ namespace StopHolographic
 
             process.Start();
             Console.WriteLine(process.StandardOutput.ReadToEnd());
+#if DEBUG
+            Console.ReadKey();
+#endif
         }
     }
 }
