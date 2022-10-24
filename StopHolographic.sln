@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StopHolographic", "StopHolographic.csproj", "{102B442E-C603-4B34-9C09-EA4B346ABFAE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StopHolographic", "StopHolographic\StopHolographic.csproj", "{102B442E-C603-4B34-9C09-EA4B346ABFAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
